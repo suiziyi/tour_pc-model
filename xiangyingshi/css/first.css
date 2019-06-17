@@ -1,0 +1,1186 @@
+@charset "utf-8";
+html{
+	font-size: 625%;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+body ,h1 ,h2 ,h3 ,ul , ol ,p,figure{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body{
+	background-color: white;
+	font-size: 0.16rem;
+}
+ ul ,ol{
+ 	list-style: outside none none;
+ }
+ a{
+	text-decoration: none;
+}
+div ,figure ,figcaption,button,input{
+	box-sizing: border-box;
+}
+#adver{
+	max-width: 1263px;
+	margin: 0 auto;
+	padding: 70px 0 0 0;
+	position: relative;
+}
+#nav{
+ 	width: 100%;
+ 	height: 70px;
+ 	background-color: #333;
+ 	box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+ 	position: fixed;
+ 	z-index: 9999;
+ 	top: 0;
+ }
+#nav .cent{
+	max-width: 1263px;
+	height: 70px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+#nav .h{
+	width: 30%;
+	height: 70px;
+	background: url(../image/34.png) no-repeat;
+	text-indent: 120px;
+	font-size: 21px;
+	font-family: Microsoft yahei;
+	color: black;
+	float: left;
+}
+#nav .u{
+	width: 55%;
+	height: 70px;
+	float: right;
+	line-height:70px;
+	color: gray;
+}
+.none ,.sm-visible{
+	display: none;
+}
+.clearfix{
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+#nav .u li{
+	float: left;
+	width: 20%;
+	text-align: center;
+
+}
+#nav .u a{
+	color: gray;
+	display: block;
+}
+#nav .u a:hover{
+	background-color: black;
+}
+#nav .u a:hover,
+#nav .active a{
+	background-color: black;
+}
+#adver{
+	/*width: 100%;*/
+	max-width: 1263px;
+	/*height: 700px;*/
+	background: url(13.jpg) no-repeat center;
+	position:relative;
+}
+#adver .center{
+	width: 40%;
+	height: 60px;
+	background-color: black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -10px 0 0 -20%;
+	opacity: 0.6;
+	border-radius: 10px;
+}
+#adver .copy{
+	opacity: 1;
+	background-color: transparent;
+	padding:3px 3px 0 3px;
+}
+#adver .searc{
+	width:70%;
+	height:52px;
+	background-color: white;
+	color: #666;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size: 24px;
+	outline: none;
+	display: block;
+	float: left;
+}
+#adver .button{
+	width:30%;
+	height:54px;
+	background-color: #eee;
+	color: #666;
+	border: 1px solid #666;
+	border-left-width: 3px;
+	border-radius: 10px;
+	font-size: 24px;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	display: block;
+	float: right;
+}
+#footer{
+background-color: #222;
+clear: both;
+}
+#footer .top{
+	max-width: 1263px;
+	height: 280px;
+	background-color: #222;
+	margin: 0 auto;
+	text-align: center;
+}
+#footer .block{
+	width: 33.33%;
+	height: 280px;
+	display: inline-block;
+	text-align: left;
+	color: #ccc;
+	vertical-align: top;
+	display: block;
+	float: left;
+}
+
+#footer .bottom{
+	max-width: 1263px;
+	background-color: #000;
+	padding:15px 0;
+	text-align: center;
+	color: #777;
+	border-top: 1px solid #444;
+}
+#footer h2{
+font-size: 24px;
+font-weight: normal;
+padding: 20px 0 0 20px;
+}
+#footer hr{
+	width: 90%;
+	border:1px dashed #333;
+}
+#footer ul{
+	font-size: 18px;
+	color: #777;
+	text-indent: 20px;
+	line-height: 2;
+}
+#footer .version{
+	color: #777;
+	text-align: center;
+	padding:10px 0;
+}
+#tour{
+	max-width: 1263px;
+	height: 850px;
+	/*background-color: #ccc;*/
+	margin: 31px auto;
+	text-align: center;
+}
+#tour .center{
+	text-align: center;
+}
+#tour .center h2{
+	font-size: 45px;
+	letter-spacing: 2px;
+	color: #666;
+	margin: 10px 10px;
+
+}
+#tour .center p{
+	color: #666;
+	margin: 10px 10px;
+	font-size: 15px;
+}
+#tour_title{
+	height: 40px;
+	overflow: hidden;
+}
+#tour figure{
+	border:1px solid #ddd;
+	display: block;
+	float: left;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 0.4%;
+	width: 30%;
+	text-align: left;
+	position: relative;
+}
+#tour figure img{
+	vertical-align: middle;
+	width: 380px;
+	height: 250px;
+}
+#tour .info{
+	padding: 5px 0 0 0;
+}
+body{
+	background-color: white;
+}
+#tour figcaption{
+color: #777;
+line-height: 1.5;
+letter-spacing: 1px;
+font-size: 14px;
+padding: 7px 0 5px 0;
+}
+#tour .title{
+	color: #333;
+	font-weight: normal;
+}
+#tour .set{
+	float: right;
+	font-size: 13px;
+	color: #999;
+	font-size: normal;
+	position: relative;
+	top: 5px;
+	right: 5px;
+}
+#tour .price{
+	color: #f60;
+	font-size: 14px;
+}
+#tour .price strong{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#tour .type{
+	width:90px;
+	height:25px;
+	background-color: #59b200;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top:4px;
+	left: 4px;
+}
+.scenery{
+	color: #666;
+	font-style: 20px;
+}
+.scenery h2{
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px dashed #999;
+	padding: 0 0 15px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+.scenery figure{
+	border:1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 5px 15px 0;
+	width: 32.6%;
+	text-align: left;
+	position: relative;
+}
+.scenery img{
+	vertical-align: middle;
+	width: 380px;
+	height: 250px;
+}
+.scenery figcaption{
+	text-align: center;
+	padding: 5px 0;
+}
+.scenery .more{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 2px;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: #fafafa;
+}
+#headline{
+	max-width: 1920px;
+	padding:70px 0 0 0;
+	margin: 0 auto;
+	position: relative;
+}
+
+#headline  hgroup{
+	position: absolute;
+	top: 45%;
+	left:18%;
+}
+#headline  h2{
+	color: white;
+	font-size: 45px;
+	letter-spacing: 1px;
+}
+#headline  h3{
+	font-size: 24px;
+	color: white;
+	letter-spacing: 1px;
+}
+#contain{
+	max-width: 1263px;
+	margin: 10px auto;
+}
+#contain .sidebar{
+	width: 28%;
+	float: right;
+	background-color: #fff;
+}
+#contain .side{
+	border:1px solid #eee;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#contain .side h2{
+	font-weight: normal;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-indent: 2px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafafa;
+	color: #666;
+	text-align: left;
+}
+#contain .tag{
+	padding: 10px 0;
+	background-color: #fff;
+}
+#contain .tag li{
+	display: inline-block;
+	width: 100px;
+	line-height: 35px;
+	margin: 2px 0;
+	background-color: #eee;
+	height: 35px;
+}
+#contain .tag a{
+	display: block;
+	color: #999;
+}
+.list{
+	width: 70%;
+	/*流体百分比*/
+	height: 1200px;
+	float: left;
+	background-color: #fff;
+}
+#contain figure{
+	border:1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 12px;
+	width: 100px;
+	text-align: left;
+	position: relative;
+	color: #666;
+}
+#contain figure img{
+	vertical-align: middle;
+	width: 100px;
+	height: 100px;
+}
+#contain .box{
+	padding: 10px 0;
+	background-color: #fff;
+}
+#contain .box a{
+	display: inline-block;
+	width: 150px;
+	line-height: 40px;
+	margin: 2px 0;
+	background-color: #eee;
+	height: 40px;
+	color: #999;
+	text-align: left;
+	text-indent: 35px;
+}
+#contain .box a:hover{
+	background-color: #458000;
+	color: black;
+}
+#contain .tag a:hover{
+	background-color: #458000;
+	color: black;
+}
+#contain .box a.trea1{
+	background: #eee url(../image/11.png) no-repeat -150px -100px;
+}
+#contain .box a.trea2{
+	background: #eee url(../image/11.png) no-repeat -150px -100px;
+}
+#contain .box a.trea3{
+	background: #eee url(../image/11.png) no-repeat -150px -100px;
+}
+#contain .box a.trea4{
+	background: #eee url(../image/11.png) no-repeat -150px -100px;
+}
+.list h2{
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px dashed #999;
+	padding: 0 0 15px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+#contain .about p{
+	font-size: 20px;
+	color: #668;
+	line-height: 2;
+	margin: 15px 19px;
+}
+#contain .about address{
+	font-style: normal;
+	/*字体不倾斜*/
+	font-size: 20px;
+	color: red;
+	margin: 20px 10px;
+	line-height: 1.6;
+}
+.ticket{
+	color: #666;
+	font-style: 20px;
+}
+.ticket h2{
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px dashed #999;
+	padding: 0 0 15px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+.ticket .type{
+	margin: 20px 0 10px 0;
+}
+.ticket .type mark{
+	color: white;
+	background-color: #458b00;
+	padding: 5px 8px;
+	border-radius: 4px;
+	margin: 0 10px 0 16px;
+
+}
+.ticket .left{
+	width: 43%;
+	display: inline-block;
+}
+.ticket .right{
+	width: 43%;
+	display: inline-block;
+}
+.ticket .button{
+	width: 9%;
+	display: inline-block;
+}
+.ticket .submit{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	border-radius: 4px;
+	background-color: #f60;
+	font-size: 20px;
+	color: #fff;
+	line-height: 90px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	top: -18px;
+}
+.ticket .form {
+	font-size: 20px;
+}
+.ticket .form p{
+	line-height: 3px;
+}
+.ticket .form input{
+	width: 250px;
+	height: 30px;
+	border:1px solid #ccc;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 5px;
+	font-size: 18px;
+	color: #666;
+	margin: 0 0 0 16px;
+}
+.ticket .new{
+	margin: 20px 0 0 0;
+}
+.ticket .new ul{
+	margin: 20px 0 0 0;
+}
+.ticket .new li{
+	display: inline-block;
+	padding: 5px 25px;
+}
+.ticket .new li:first-child{
+	padding-left: 0;
+}
+.ticket .new li:nth-child(2){
+	background-color: #458b00;
+	border-radius: 4px;
+	color: #fff;
+}
+.ticket table{
+	margin: 20px 0 0 0;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+.ticket th{
+	border-bottom: 1px solid #ddd;
+	height: 50px;
+	line-height: 50px;
+}
+.ticket td{
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+.ticket tr:nth-child(2n){
+	background-color: #fafafa;
+}
+.ticket tr:hover{
+	background-color: #eee;
+}
+.ticket .price{
+	color: #f60;
+}
+.ticket .more{
+	color: blue;
+}
+.ticket .reserve{
+	display: inline-block;
+	/*自动居中*/
+	width: 80px;
+	height: 35px;
+	border-radius: 4px;
+	background-color: #f60;
+	font-size: 20px;
+	color: #fff;
+	line-height: 35px;
+	text-align: center;
+}
+.info{
+	height: 43px;
+	line-height: 43px;
+	background-color: #eee;
+	margin: 10px 0 20px 0;
+}
+.information .left{
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+.information .left li{
+	display: inline-block;
+	width: 40%;
+	height: 45px;
+	line-height:45px;
+	text-align: center;
+}
+.information .left li:first-child{
+	background-color: #fff;
+	border-top: 2px solid green;
+	position: relative;
+	left: 1px;
+}
+.information .left li a{
+	display: block;
+	text-align: center;
+	color: #666;
+}
+.information .right{
+	float: right;
+	width: 40%;
+}
+.information .right li{
+	display: inline-block;
+	width: 30%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+.information .right a{
+	padding: 3px 8px;
+	color: #666;
+
+}
+.information .right a.select ,.information .right a:hover{
+	background-color: green;
+	color: #fff;
+}
+.information .more{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: #fafafa;
+}
+.tour{
+	margin: 0 0 20px 0;
+	border:1px solid #eee;
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+}
+.information figure:after{
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+	/*本身清理浮动*/
+}
+.tour img{
+	float: left;
+	width: 45%;
+	/*width: 250px;*/
+	height: 150px;
+}
+.tour figcaption{
+	float: right;
+	width: 55%;
+}
+.tour footer{
+	width: 55%;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 25px;
+	color: #666;
+	background-color: #fafafa;
+	letter-spacing: 1px;
+	position: absolute;
+	bottom: 0;
+}
+.tour time{
+	color: #458b00;
+}
+.tour hgroup{
+	width: 60%;
+}
+.tour h2{
+	font-size: 24px;
+	color: #333;
+	font-weight: normal;
+	padding: 0 0 0 25px;
+	border:none;
+	overflow: hidden;
+	/*margin: 0 0 20px 0;*/
+}
+.tour h3{
+	font-size: 16px;
+	color: #666;
+	line-height: 1;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 0 0 1px 25px;
+}
+.tour ol{
+	padding: 0 0 0 25px;
+	color: #666;
+	line-height: 1.5;
+}
+.tour mark{
+	background-color: #fff;
+	border:1px solid #458b00;
+	border-radius: 4px;
+	padding: 0 5px;
+	color: #458b00;
+
+}
+.tour .buy{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+.tour .price{
+	font-size: 20px;
+	color: #f60;
+
+}
+.tour .price strong{
+	font-size: 24px;
+
+}
+.tour .price s{
+	font-size: 14px;
+	color: #999;
+}
+.tour .buy .reserve{
+	margin: 10px 10px 0 10px;
+	background-color: #f60;
+	font-size: 18px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 4px;
+}
+.tour .reserve a{
+	width: 12px;
+	height: 30px;
+	text-align: center;
+	display: inline-block;
+}
+.tour .type{
+	width:90px;
+	height:25px;
+	background-color: #59b200;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.tour .dis{
+	width: 52px;
+	width: 52px;
+	background: url(11.png) no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+.tour .dis span{
+	display: block;
+	width: 52px;
+	height: 52px;
+	font-size: 14px;
+	color: #ff7a4d;
+	text-indent: 7px;
+	padding: 5px 0 0 0;
+	transform: rotate(45deg);
+}
+/*pc    boostrap框架*/
+@media (min-width: 1200px) {
+
+}
+/*分辨率低pc*/
+@media (min-width: 992px) and (max-width: 1199px){
+	#headline  hgroup{
+
+	left:8%;
+	}
+
+	#adver .center{
+	width: 50%;
+	margin: -10px 0 0 -25%;
+	}
+	#tour .center h2{
+		font-size: 40px;
+	}
+	#tour .center p{
+		font-size: 15px;
+	}
+	#headline h2{
+		font-size: 36px;
+	}
+	#headline h3{
+		font-size: 20px;
+	}
+
+}
+
+/*pad*/
+@media (min-width: 768px) and (max-width: 991px){
+	#headline  hgroup{
+
+		left:8%;
+	}
+	#adver .center{
+		width: 60%;
+		margin: -10px 0 0 -30%;
+
+	}
+	#adver .searc,#adver .button{
+		font-size: 20px;
+	}
+	#tour .center h2{
+			font-size: 35px;
+	}
+	#tour .center p{
+			font-size: 14px;
+	}
+	#headline h2{
+			font-size: 30px;
+	}
+	#headline h3{
+		font-size: 16px;
+	}
+	.sidebar{
+		display: none;
+	}
+	.list{
+		width: 100%;
+		padding:0 20px 0 20px;
+	}
+	.list h2{
+		font-size: 28px;
+	}
+	.about p{
+		font-size: 18px;
+	}
+	.about address{
+		font-size: 18px;
+	}
+	.ticket .left, .ticket .right , .ticket .button{
+		width: 98%;
+		display: block;
+	}
+	.ticket .form input{
+		width: 98%;
+		height: 35px;
+		margin: 0;
+	}
+	.ticket .form p{
+		line-height: 2;
+	}
+	.ticket .submit{
+		display: block;
+		width: 30%;
+		height: auto;
+		line-height: 2;
+/*		position: relative;
+		top: 10px;*/
+		position: static;
+		margin: 0 auto;
+	}
+	.ticket .type , .ticket .form, .ticket .new, .ticket .form input, .ticket .submit, .ticket .reserve{
+		font-size: 18px;
+	}
+	.tour h2{
+		font-size: 22px;
+		height: 26px;
+		line-height: 1;
+		padding:15px 0 5px 15px;
+	}
+	.md-hidden{
+		display: none;
+	}
+	.tour .buy{
+	position: absolute;
+	top: auto;
+	right: auto;
+	bottom: 0;
+	padding:0 0 0 25px;
+	}
+	.tour .buy strong , .tour .buy .price s , .tour .buy .price{
+		font-size: 18px;
+	}
+	.tour h3{
+		font-size: 16px;
+		height: 20px;
+		overflow: hidden;
+		line-height: 2;
+		padding:5px 0 5px 15px;
+	}
+}
+/*超小屏幕，手机*/
+@media (min-width: 480px) and (max-width: 767px){
+	#headline  hgroup{
+
+	left:8%;
+	}
+	#nav ,#nav .u ,#nav .cent{
+		height:45px;
+	}
+	#nav .h ,.sm-hidden,.sidebar{
+		display: none;
+	}
+	#nav .u {
+		width: 100%;
+		line-height: 45px;
+	}
+	#adver{
+		padding: 45px 0 0 0;
+	}
+	#adver .center{
+	width: 70%;
+	height: 53px;
+	margin: -10px 0 0 -35%;
+	}
+
+	#adver .searc,#adver .button{
+		font-size: 18px;
+		height: 45px;
+	}
+	.sm-visible{
+		display: block;
+	}
+	#tour .center h2{
+		font-size: 30px;
+	}
+	#tour .center p{
+		font-size: 13px;
+	}
+	#tour figure{
+		width: 49.2%;
+	}
+	.scenery figure{
+		width: 48.2%;
+	}
+	.scenery figcaption{
+		font-size: 18px;
+	}
+	#headline h2{
+		font-size: 26px;
+	}
+	#headline h3{
+		font-size: 14px;
+	}
+	#headline{
+		padding: 45px 0 0 0;
+	}
+	.list{
+		width: 100%;
+		padding:0 20px 0 20px;
+	}
+	.list h2{
+		font-size: 25px;
+	}
+	.about p{
+		font-size: 15px;
+	}
+	.about address{
+		font-size: 15px;
+	}
+	.ticket .left, .ticket .right , .ticket .button{
+		width: 98%;
+		display: block;
+	}
+	.ticket .form input{
+		width: 98%;
+		height: 35px;
+		margin: 0;
+	}
+	.ticket .form p{
+		line-height: 2;
+	}
+	.ticket .submit{
+		display: block;
+		width: 30%;
+		height: auto;
+		line-height: 2;
+		position: relative;
+		top: 10px;
+		margin: 0 auto;
+	}
+	.ticket .type , .ticket .form, .ticket .new, .ticket .form input, .ticket .submit, .ticket .reserve{
+		font-size: 16px;
+	}
+	.ticket .reserve{
+		display: inline-block;
+		width: auto;
+		height: auto;
+		padding:8px;
+		line-height: 1;
+	}
+	.tour h2{
+		font-size: 20px;
+		height: 25px;
+		line-height: 1;
+		padding:5px 0 15px 15px;
+	}
+	.tour h3{
+		font-size: 13px;
+		height: 15px;
+		line-height: 2;
+		overflow: hidden;
+		padding:15px 0 5px 15px;
+	}
+	.md-hidden{
+		display: none;
+	}
+	.tour .buy{
+	position: absolute;
+	top: auto;
+	right: auto;
+	bottom: 0;
+	padding:0 0 0 25px;
+	}
+	.tour .buy strong , .tour .buy .price s , .tour .buy .price{
+		font-size: 16px;
+	}
+
+	.information .left{
+	font-size: 16px;
+	}
+	.information .right{
+		font-size: 14px;
+	}
+}
+
+/*为小屏幕，低分辨率手机*/
+@media (max-width: 479px){
+	#nav ,#nav .u ,#nav .cent{
+		height:45px;
+	}
+	#nav .h ,.xs ,.sm-hidden,.sidebar{
+		display: none;
+	}
+	#nav .u{
+		width: 100%;
+		line-height: 45px;
+	}
+	#adver{
+		padding: 45px 0 0 0;
+	}
+	#nav .u li{
+		width: 25%;
+	}
+	#adver .center {
+	width: 80%;
+	height: 48px;
+	margin: -10px 0 0 -40%;
+	}
+	#adver .searc,#adver .button{
+	font-size: 16px;
+	height: 40px;
+	}
+	.sm-visible{
+		display: block;
+	}
+	#footer .button ,#footer .version{
+		font-size: 13px;
+	}
+	#tour .center h2{
+		font-size: 25px;
+	}
+	#tour .center p{
+		font-size: 12px;
+	}
+	#tour figure{
+		width: 99%;
+	}
+	.scenery figure{
+		width: 99%;
+	}
+	.scenery figcaption{
+		font-size: 16px;
+	}
+	#headline  hgroup{
+
+	left:8%;
+	}
+	#headline h2{
+		font-size: 20px;
+	}
+	#headline h3{
+		font-size: 12px;
+	}
+	.list{
+		width: 100%;
+		padding:0 20px 0 20px;
+	}
+	.list h2{
+		font-size: 20px;
+	}
+	.about p{
+		font-size: 14px;
+	}
+	.about address{
+		font-size: 14px;
+	}
+	.ticket .left, .ticket .right , .ticket .button{
+		width: 98%;
+		display: block;
+	}
+	.ticket .form input{
+		width: 98%;
+		height: 35px;
+		margin: 0;
+	}
+	.ticket .form p{
+		line-height: 2;
+	}
+	.ticket .submit{
+		display: block;
+		width: 30%;
+		height: auto;
+		line-height: 2;
+		position: relative;
+		top: 10px;
+		margin: 0 auto;
+	}
+	.ticket .type , .ticket .form, .ticket .new, .ticket .form input, .ticket .submit, .ticket .reserve{
+		font-size: 14px;
+	}
+	.ticket .reserve{
+		display: inline-block;
+		width: auto;
+		height: auto;
+		padding:8px;
+		line-height: 1;
+	}
+	.tour h2{
+		font-size: 18px;
+		height: 15px;
+		padding:5px 0 15px 15px;
+		line-height: 1;
+	}
+	.md-hidden{
+		display: none;
+	}
+	.tour .buy{
+	position: absolute;
+	top: auto;
+	right: auto;
+	bottom: 0;
+	padding:0 0 0 25px;
+	}
+	.tour .buy strong , .tour .buy .price s , .tour .buy .price{
+		font-size: 15px;
+	}
+	.tour h3{
+		font-size: 12px;
+		height: 15px;
+		line-height: 2;
+		overflow: hidden;
+		padding:15px 0 5px 15px;
+	}
+	.information .left{
+	font-size: 14px;
+	}
+	.information .right{
+		font-size: 12px;
+		width: 50%;
+		height: auto;
+	}
+}

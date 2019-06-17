@@ -1,0 +1,477 @@
+@charset "utf-8";
+#headline{
+	background:linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(0,0,0,0)) ,url(36.jpg) no-repeat center;
+	width:100%;
+	min-width: 1263px;
+	height: 300px;
+}
+#headline .center{
+
+	width: 1263px;
+	height: 300px;
+	margin: 0 auto;
+}
+#headline  hgroup{
+	padding: 100px 0 0 50px;
+
+}
+#headline  h2{
+	color: white;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+#headline  h3{
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+}
+#contain{
+	width: 1263px;
+	margin: 10px auto;
+}
+#contain .sidebar{
+	width: 340px;
+	float: right;
+}
+#contain .side{
+	border:1px solid #eee;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#contain .side h2{
+	font-weight: normal;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-indent: 2px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafafa;
+	color: #666;
+	text-align: left;
+}
+#contain .tag{
+	padding: 10px 0;
+}
+#contain .tag li{
+	display: inline-block;
+	width: 100px;
+	line-height: 35px;
+	margin: 2px 0;
+	background-color: #eee;
+	height: 35px;
+}
+#contain .tag a{
+	display: block;
+	color: #999;
+}
+#contain .list{
+	width: 910px;
+	height: 1200px;
+	float: left;
+}
+#contain figure{
+	border:1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 12px;
+	width: 100px;
+	text-align: left;
+	position: relative;
+	color: #666;
+}
+#contain figure img{
+	vertical-align: middle;
+	width: 100px;
+	height: 100px;
+}
+#contain .box{
+	padding: 10px 0;
+}
+#contain .box a{
+	display: inline-block;
+	width: 150px;
+	line-height: 40px;
+	margin: 2px 0;
+	background-color: #eee;
+	height: 40px;
+	color: #999;
+	text-align: left;
+	text-indent: 35px;
+}
+#contain .box a:hover{
+	background-color: #458000;
+	color: black;
+}
+#contain .tag a:hover{
+	background-color: #458000;
+	color: black;
+}
+#contain .box a.trea1{
+	background: #eee url(11.png) no-repeat -150px -100px;
+}
+#contain .box a.trea2{
+	background: #eee url(11.png) no-repeat -150px -100px;
+}
+#contain .box a.trea3{
+	background: #eee url(11.png) no-repeat -150px -100px;
+}
+#contain .box a.trea4{
+	background: #eee url(11.png) no-repeat -150px -100px;
+}
+#contain .info{
+	height: 43px;
+	line-height: 43px;
+	background-color: #eee;
+	margin: 0 0 20px 0;
+}
+#contain .information .left{
+	display: inline-block;
+	float: left;
+}
+#contain .information .left li{
+	display: inline-block;
+	width: 150px;
+	height: 45px;
+	line-height:45px;
+	text-align: center;
+}
+#contain .information .left li:first-child{
+	background-color: #fff;
+	border-top: 2px solid green;
+	position: relative;
+	left: 1px;
+}
+#contain .information .left li a{
+	display: block;
+	text-align: center;
+	color: #666;
+}
+#contain .information .right{
+	float: right;
+}
+#contain .information .right li{
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+#contain .information .right a{
+	padding: 3px 8px;
+	color: #666;
+
+}
+#contain .information .right a.select , #contain .information .right a:hover{
+	background-color: green;
+	color: #fff;
+}
+#contain .tour{
+	padding: 0;
+	margin: 0 0 2px 0;
+	width: 908px;
+	border:1px solid #eee;
+	position: relative;
+}
+#contain .tour img{
+	float: left;
+	width: 250px;
+	height: 150px;
+}
+#contain .tour figcaption{
+	width: 656px;
+	height: 150px;
+	float: right;
+
+}
+#contain .tour footer{
+	width: 656px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 25px;
+	color: #666;
+	background-color: #fafafa;
+	letter-spacing: 1px;
+	position: absolute;
+	bottom: 0;
+}
+#contain .tour time{
+	color: #458b00;
+}
+#contain .tour hgroup{
+	width: 300px;
+}
+#contain .tour h2{
+	font-size: 24px;
+	color: #333;
+	font-weight: normal;
+	padding: 1px 0 1px 25px;
+}
+#contain .tour h3{
+	font-size: 16px;
+	color: #666;
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 1px 0 1px 25px;
+}
+#contain .tour ol{
+	padding: 0 0 0 25px;
+	color: #666;
+	line-height: 1.3;
+}
+#contain .tour mark{
+	background-color: #fff;
+	border:1px solid #458b00;
+	border-radius: 4px;
+	padding: 0 5px;
+	color: #458b00;
+
+}
+#contain .tour .buy{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+#contain .tour .price{
+	font-size: 20px;
+	color: #f60;
+
+}
+#contain .tour .price strong{
+	font-size: 36px;
+
+}
+#contain .tour .price s{
+	font-size: 16px;
+	color: #999;
+}
+#contain .tour .reserve{
+	margin: 10px 10px 0 0;
+	background-color: #f60;
+	font-size: 20px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 4px;
+}
+#contain .tour .reserve a{
+	width: 12px;
+	height: 30px;
+	text-align: center;
+	display: inline-block;
+}
+#contain .tour .type{
+	width:90px;
+	height:25px;
+	background-color: #59b200;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+#contain .tour .dis{
+	width: 52px;
+	width: 52px;
+	background: url(11.png) no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+#contain .tour .dis span{
+	display: block;
+	width: 52px;
+	height: 52px;
+	font-size: 14px;
+	color: #ff7a4d;
+	text-indent: 7px;
+	padding: 5px 0 0 0;
+	transform: rotate(45deg);
+}
+#contain .information .more{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: #fafafa;
+}
+#contain .ticket,#contain .scenery,#contain .about{
+	color: #666;
+	font-style: 20px;
+}
+#contain .ticket h2,#contain .scenery h2,#contain .about h2{
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px dashed #999;
+	padding: 0 0 15px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+#contain .ticket .type{
+	margin: 20px 0 10px 0;
+}
+#contain .ticket .type mark{
+	color: white;
+	background-color: #458b00;
+	padding: 5px 8px;
+	border-radius: 4px;
+	margin: 0 10px 0 16px;
+
+}
+#contain .ticket .left{
+	width: 43%;
+	display: inline-block;
+}
+#contain .ticket .right{
+	width: 43%;
+	display: inline-block;
+}
+#contain .ticket .button{
+	width: 9%;
+	display: inline-block;
+}
+#contain .ticket .submit{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	border-radius: 4px;
+	background-color: #f60;
+	font-size: 20px;
+	color: #fff;
+	line-height: 90px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	top: -18px;
+}
+#contain .ticket .form {
+	font-size: 20px;
+}
+#contain .ticket .form p{
+	line-height: 3px;
+}
+#contain .ticket .form input{
+	width: 250px;
+	height: 30px;
+	border:1px solid #ccc;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 5px;
+	font-size: 18px;
+	color: #666;
+	margin: 0 0 0 16px;
+}
+#contain .ticket .new{
+	margin: 20px 0 0 0;
+}
+#contain .ticket .new ul{
+	margin: 20px 0 0 0;
+}
+#contain .ticket .new li{
+	display: inline-block;
+	padding: 5px 25px;
+}
+#contain .ticket .new li:first-child{
+	padding-left: 0;
+}
+#contain .ticket .new li:nth-child(2){
+	background-color: #458b00;
+	border-radius: 4px;
+	color: #fff;
+}
+#contain .ticket table{
+	margin: 20px 0 0 0;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+#contain .ticket th{
+	border-bottom: 1px solid #ddd;
+	height: 50px;
+	line-height: 50px;
+}
+#contain .ticket td{
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+#contain .ticket tr:nth-child(2n){
+	background-color: #fafafa;
+}
+#contain .ticket tr:hover{
+	background-color: #eee;
+}
+#contain .ticket .price{
+	color: #f60;
+}
+#contain .ticket .more{
+	color: blue;
+}
+#contain .ticket .reserve{
+	display: inline-block;
+	/*自动居中*/
+	width: 80px;
+	height: 35px;
+	border-radius: 4px;
+	background-color: #f60;
+	font-size: 20px;
+	color: #fff;
+	line-height: 35px;
+	text-align: center;
+}
+#contain .scenery figure{
+	border:1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 5px 15px 0;
+	width: 380px;
+	text-align: left;
+	position: relative;
+}
+#contain .scenery img{
+	vertical-align: middle;
+	width: 380px;
+	height: 250px;
+}
+#contain .scenery figcaption{
+	text-align: center;
+	padding: 5px 0;
+}
+#contain .scenery .more{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 2px;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: #fafafa;
+}
+#contain .about p{
+	font-size: 20px;
+	color: #668;
+	line-height: 2;
+	margin: 15px 0;
+}
+#contain .about address{
+	font-style: normal;
+	/*字体不倾斜*/
+	font-size: 20px;
+	color: red;
+	margin: 20px 0;
+	line-height: 1.6;
+}
